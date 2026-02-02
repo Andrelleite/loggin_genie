@@ -509,14 +509,95 @@
             color: #ef4444;
         }
 
+        /* Results Header */
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 30px;
+            background: rgba(15, 15, 15, 0.9);
+            border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+            margin: -30px -30px 0 -30px;
+        }
+
+        .results-header h2 {
+            font-size: 1.2rem;
+            letter-spacing: 3px;
+            margin: 0;
+            color: #fff;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .results-header h2::before {
+            content: '> ';
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .results-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-icon {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: rgba(255, 255, 255, 0.7);
+            padding: 8px 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .btn-icon:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.4);
+            color: #fff;
+        }
+
+        /* Results Summary */
+        .results-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 25px 30px;
+            background: rgba(10, 10, 10, 0.5);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            margin: 0 -30px;
+        }
+
+        .summary-stat {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-left: 3px solid #fff;
+        }
+
+        .stat-label {
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+            color: rgba(255, 255, 255, 0.5);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #fff;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
         .logs-container {
-            margin-top: 30px;
+            margin-top: 0;
             max-height: 700px;
             overflow-y: auto;
-            background: rgba(10, 10, 10, 0.6);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(10, 10, 10, 0.3);
+            border: none;
             border-radius: 0;
-            padding: 25px;
+            padding: 30px;
         }
 
         .log-entry {
@@ -1159,7 +1240,26 @@
 
         <!-- Results -->
         <div id="results-card" class="card" style="display: none;">
-            <h2>📝 Decrypted Logs</h2>
+            <div class="results-header">
+                <h2>DECRYPTED LOGS</h2>
+                <div class="results-actions">
+                    <button class="btn-icon" onclick="clearResults()" title="Clear Results">✕</button>
+                </div>
+            </div>
+            <div class="results-summary" id="results-summary" style="display: none;">
+                <div class="summary-stat">
+                    <span class="stat-label">TOTAL LOGS</span>
+                    <span class="stat-value" id="total-logs">0</span>
+                </div>
+                <div class="summary-stat">
+                    <span class="stat-label">DECRYPTED</span>
+                    <span class="stat-value" id="decrypted-count">0</span>
+                </div>
+                <div class="summary-stat">
+                    <span class="stat-label">SERVICES</span>
+                    <span class="stat-value" id="services-count">0</span>
+                </div>
+            </div>
             <div id="logs-container" class="logs-container"></div>
         </div>
     </div>
@@ -1436,6 +1536,26 @@
                 logs = [logs];
             }
 
+            // Calculate summary statistics
+            let decryptedCount = 0;
+            const servicesSet = new Set();
+
+            logs.forEach(log => {
+                const source = log._source || log;
+                if (source.decrypted_message || source.decrypted_encrypted_message) {
+                    decryptedCount++;
+                }
+                const service = source.service || source.app;
+                if (service) {
+                    servicesSet.add(service);
+                }
+            });
+
+            // Update summary stats
+            document.getElementById('total-logs').textContent = logs.length;
+            document.getElementById('decrypted-count').textContent = decryptedCount;
+            document.getElementById('services-count').textContent = servicesSet.size;
+
             logs.forEach((log, index) => {
                 const source = log._source || log;
                 const timestamp = source['@timestamp'] || source.timestamp || 'N/A';
@@ -1545,6 +1665,20 @@
         function truncateText(text, maxLength) {
             if (text.length <= maxLength) return text;
             return text.substring(0, maxLength);
+        }
+
+        // Clear results function
+        function clearResults() {
+            const container = document.getElementById('logs-container');
+            const resultsCard = document.getElementById('results-card');
+            
+            container.innerHTML = '';
+            resultsCard.style.display = 'none';
+            
+            // Reset summary stats
+            document.getElementById('total-logs').textContent = '0';
+            document.getElementById('decrypted-count').textContent = '0';
+            document.getElementById('services-count').textContent = '0';
         }
 
         // File upload form
