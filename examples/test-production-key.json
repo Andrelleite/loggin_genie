@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "test-1",
+    "_index": "production-logs",
+    "_source": {
+      "@timestamp": "2026-02-02T20:13:28.308613Z",
+      "level": "info",
+      "service": "auth-service",
+      "message": "umQ5qIwnc72uArBz/DqybRKwKF+Ld+iODaGlLq95yzOaZp0foJrtY2yfzzuuU8MRPahLzuna1pMsjH2c4VIYyj3Divp2TMeSTlsL3vw1safnD4XsAEODmhaibsJQO2yi",
+      "environment": "production"
+    }
+  }
+]

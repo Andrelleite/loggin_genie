@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "1",
+    "_index": "app-logs-2024",
+    "_source": {
+      "@timestamp": "2026-02-02T17:53:45.501138Z",
+      "level": "info",
+      "service": "api",
+      "message": "npko/67lfOinSTPJbWOW96awH/DQ1R1TC/JhnVIqcVIeCbBuS8LhNFNql076arCgjD3aTRpPXn8TDdvIFqh7Af7f7nLLtKFYAOrDKX4=",
+      "host": "server-1",
+      "environment": "production"
+    }
+  },
+  {
+    "_id": "2",
+    "_index": "app-logs-2024",
+    "_source": {
+      "@timestamp": "2026-02-02T18:08:45.501138Z",
+      "level": "warn",
+      "service": "database",
+      "message": "SsOGJggO8mgSME4lArTuL66EwAVlS+IhE/0vhrO36AP3XlRJxFlqDVmwv/LHQ/DwWXw5hfsVxggbstDPnRCIN48yw01IPqwGwOXPdrvNg+cOoEbLbwNXBkECk/4VYaSBiGU=",
+      "host": "server-2",
+      "environment": "production"
+    }
+  },
+  {
+    "_id": "3",
+    "_index": "app-logs-2024",
+    "_source": {
+      "@timestamp": "2026-02-02T18:23:45.501138Z",
+      "level": "error",
+      "service": "auth-service",
+      "message": "viWG0XKmUE62926vYRzgI/Jj2gL11TgGJh4R3VacnaM3Efi4/1TXRsaPcVsRMSpy/c7e08JLUlNduyj+jIg55XRh/mAVaydklkLqMkGfRYW/ZtVTAZs3mHBQAOgM",
+      "host": "server-3",
+      "environment": "production"
+    }
+  },
+  {
+    "_id": "4",
+    "_index": "app-logs-2024",
+    "_source": {
+      "@timestamp": "2026-02-02T18:38:45.501138Z",
+      "level": "debug",
+      "service": "payment-processor",
+      "message": "tNHqTJmZ5EWPuVPtFE9DTyO8n4u6iX1CEDp8RVIXuAAd+tR9rSyN6atFdTkpGx3fEs3iKdlfcGQfTAYhOMJicBkD586eZmHrNHp8MqBrrBUvLtgIRKkmfr7Nz4s=",
+      "host": "server-1",
+      "environment": "production"
+    }
+  },
+  {
+    "_id": "5",
+    "_index": "app-logs-2024",
+    "_source": {
+      "@timestamp": "2026-02-02T18:53:45.501138Z",
+      "level": "critical",
+      "service": "notification-service",
+      "message": "m/j7sa5QvmqJfTjpQKecrNpElUAgEOHkNXAMAm+84QE1gDdSgBaDK5BJzg+AM02xrjcszwBiTsdf5JkzoB4k3HKdvaNTyv13ulD7WnY9JHMkEyAqauU=",
+      "host": "server-2",
+      "environment": "production"
+    }
+  },
+  {
+    "_id": "6",
+    "_index": "app-logs-2024",
+    "_source": {
+      "@timestamp": "2026-02-02T19:08:45.501138Z",
+      "level": "info",
+      "service": "api",
+      "message": "jz7CkGJlGx5O2zxA4gx7w28ifVJBjGCvY0QEk+bgLlojwzTnvDS6x3m7KY/4svvgtn5fOgAWzBBtkhq7I4hVWSYwQWmrkZTTHhbsAFL7D9n1/8UCFHEDRHv4XSGAkt48",
+      "host": "server-3",
+      "environment": "production"
+    }
+  },
+  {
+    "_id": "7",
+    "_index": "app-logs-2024",
+    "_source": {
+      "@timestamp": "2026-02-02T19:23:45.501138Z",
+      "level": "warn",
+      "service": "database",
+      "message": "AGzcglqQ5erumaPlS9FYDOZTdHGwM3s2AWdHM3I77vo+varpN7wDEIjKAcQhiIB/+wnedakgWF+qbpEAWwHXmnhj48bfA4+CQeyeoX1YZLiaXwdPs7+SDfucue/kzvlcCDxn",
+      "host": "server-1",
+      "environment": "production"
+    }
+  },
+  {
+    "_id": "8",
+    "_index": "app-logs-2024",
+    "_source": {
+      "@timestamp": "2026-02-02T19:38:45.501138Z",
+      "level": "error",
+      "service": "auth-service",
+      "message": "l/hfzcPh4dP17155XIrwxLVtKSV4p0lorXD1RgOdHqApc3lxEAwrqNVRPCAxKiVZzKUntWV7fJLoc/VS3uOszFy6C9QqgngAiSx9jkjYTdALmjO92XIUU2Rv+lm6czj9xQ==",
+      "host": "server-2",
+      "environment": "production"
+    }
+  }
+]

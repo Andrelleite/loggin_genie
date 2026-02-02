@@ -1,0 +1,71 @@
+version: '3.8'
+
+services:
+  # Python decryption service
+  python-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.python
+    container_name: loggin-genie-python
+    volumes:
+      - ./uploads:/app/uploads
+      - ./output:/app/output
+    environment:
+      - ENCRYPTION_KEY=${ENCRYPTION_KEY}
+      - ENCRYPTION_ALGORITHM=${ENCRYPTION_ALGORITHM:-AES-256-CBC}
+    networks:
+      - loggin-genie-network
+    restart: unless-stopped
+
+  # Node.js REST API
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: loggin-genie-api
+    ports:
+      - "${API_PORT:-3000}:3000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./output:/app/output
+    environment:
+      - PORT=3000
+      - PYTHON_PATH=/usr/bin/python3
+      - NODE_ENV=production
+      - ENCRYPTION_KEY=${ENCRYPTION_KEY}
+      - JWT_SECRET=${JWT_SECRET:-your-super-secret-jwt-key-change-in-production}
+    depends_on:
+      - python-worker
+    networks:
+      - loggin-genie-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Web UI (optional)
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    container_name: loggin-genie-web
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    environment:
+      - API_URL=http://api:3000
+    depends_on:
+      - api
+    networks:
+      - loggin-genie-network
+    restart: unless-stopped
+
+networks:
+  loggin-genie-network:
+    driver: bridge
+
+volumes:
+  uploads:
+  output:

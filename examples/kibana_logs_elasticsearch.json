@@ -1,0 +1,1152 @@
+[
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0001",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:20:23.631896Z",
+      "level": "ERROR",
+      "service": "auth-service",
+      "host": "app-server-5",
+      "environment": "production",
+      "encrypted_message": "VGLaOFJm8KE8tK68S/oKt81hpx+QLvhATMZ7LszK2PdGm+Wbjn066r2hrF8wG9+702ThWvGhw7xF90Bw8PEdB68ZScDhbADmjA99WPmKJWMn+z2NTCJHmtSe22/+wZyK",
+      "message_length": 73,
+      "correlation_id": "corr-892660",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "error"
+      ],
+      "version": "1.0",
+      "pid": 2117
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0002",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:21:23.631896Z",
+      "level": "WARN",
+      "service": "notification-service",
+      "host": "app-server-3",
+      "environment": "production",
+      "encrypted_message": "DVhp1GUoDYZzwDxFhAZvL0t0ru1sl9rlWszA0aGKTJD1JtQGf30T0Cul2N/dbdNS6FQKgyQZkvEAQkufp1w7mJpBvHTc6/hDURXAIWgS40g=",
+      "message_length": 57,
+      "correlation_id": "corr-451701",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 6222
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0003",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:22:23.631896Z",
+      "level": "DEBUG",
+      "service": "notification-service",
+      "host": "app-server-2",
+      "environment": "production",
+      "encrypted_message": "x3NPDZLnVcdk1uUyAS7gwvmBF/rSf5RMKkjejj678YV3uhsgp8VzRSEOfk7NhCM31hFrL9GryTJEYIpMlJgaOVHIDGehKTUym6X6ZASyOB9SJIfJWjHge4KKm1OTVMw/",
+      "message_length": 67,
+      "correlation_id": "corr-465554",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "debug"
+      ],
+      "version": "1.0",
+      "pid": 7884
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0004",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:23:23.631896Z",
+      "level": "DEBUG",
+      "service": "analytics-service",
+      "host": "app-server-4",
+      "environment": "production",
+      "encrypted_message": "rsCftKnFzkFgGihc7X96t1uy9zaznKiANUwmJw919BQ+VN++jUutOpYDLDyG5ex7fXhFgq9a62sL0o6WfvZL9OK+C4kySzT+5KhWOufmwytID65zf/5FAeaPlfIUSF42",
+      "message_length": 69,
+      "correlation_id": "corr-471870",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "debug"
+      ],
+      "version": "1.0",
+      "pid": 8131
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0005",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:24:23.631896Z",
+      "level": "ERROR",
+      "service": "analytics-service",
+      "host": "app-server-2",
+      "environment": "production",
+      "encrypted_message": "9jabFFZsbD7wj7cJj68d5sH9MXFlIouWxfgNIqSBkuQ/GXn4n+9SPHFprl5GDvDU0+i1B4va7aX9qXfo/ReSdyY7z09D1Q3xiCY07++4V0Diny0iT0ho2giFnejNpbGe",
+      "message_length": 66,
+      "correlation_id": "corr-185426",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "error"
+      ],
+      "version": "1.0",
+      "pid": 7229
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0006",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:25:23.631896Z",
+      "level": "INFO",
+      "service": "analytics-service",
+      "host": "app-server-4",
+      "environment": "production",
+      "encrypted_message": "x5v1Sx7i0LR1/ZjRXLTYET4jVAjOaauqouW/1f4Q/wKx7T/STqfuoNdBxJMXYpUZ/tYfWQUL7p2lkstLcEyRkGHw3ePc8vCWMxFEU1ctdhm0K91PNtgVITG4cJ+V2Mnly+Z2P/M0GNPEk51qwrLIzw==",
+      "message_length": 84,
+      "correlation_id": "corr-264784",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "info"
+      ],
+      "version": "1.0",
+      "pid": 9926
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0007",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:26:23.631896Z",
+      "level": "WARN",
+      "service": "user-service",
+      "host": "app-server-2",
+      "environment": "production",
+      "encrypted_message": "Hh8AW4tMB1kMbVdp5DdonWyEF3j4v2Xekffi8Ifqw/mshoy1ikqwd7gFbIwXI3pdj1UhQVNLR+9vZ5co/9tKXD7mPrDBEh4cwWTpCyz4kCXT9wqiqvldtqp2Zd7JTFfYhUIDhXPtnPmoxA2j5/6IUw==",
+      "message_length": 86,
+      "correlation_id": "corr-641076",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 3492
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0008",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:27:23.631896Z",
+      "level": "DEBUG",
+      "service": "payment-service",
+      "host": "app-server-5",
+      "environment": "production",
+      "encrypted_message": "DZ6XVrpWSmbPMAf8gHLS4+M+wz+YMof6FQ9SeMT5KGZ/PJSB/Zu/UuCGhaJ8J2Ci6KqsMmQnbPoXXfQKOG/PSPubAzSnJJtfda90g7LPxjwLTxUC1c2/iBdAkiBpC+ty",
+      "message_length": 70,
+      "correlation_id": "corr-155740",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "debug"
+      ],
+      "version": "1.0",
+      "pid": 9310
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0009",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:28:23.631896Z",
+      "level": "DEBUG",
+      "service": "auth-service",
+      "host": "app-server-4",
+      "environment": "production",
+      "encrypted_message": "agkpRde+38UlGVtdnk9eODu0IgTvLS0D8AV+RNYcDOFmT7TbXWbkMkjRkCQEherKZSdtwUev8MyHt87Q62P70gx2y4zTbl+GK3lTwocRtbQR2sxN4suMYiyPeXgtC1Ln",
+      "message_length": 71,
+      "correlation_id": "corr-778068",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "debug"
+      ],
+      "version": "1.0",
+      "pid": 7652
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0010",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:29:23.631896Z",
+      "level": "INFO",
+      "service": "auth-service",
+      "host": "app-server-5",
+      "environment": "production",
+      "encrypted_message": "VaECJaFuFZP5OUQM2hSNGLGZOPip5NjCP1lakVpXjWXz+Xxw3Svsd5tB8k++AnA6zsKKALCLoFlrh13ZeA1FgCsW085e1MIeOBvMlRxzd9E=",
+      "message_length": 63,
+      "correlation_id": "corr-632233",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "info"
+      ],
+      "version": "1.0",
+      "pid": 9286
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0011",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:30:23.631896Z",
+      "level": "WARN",
+      "service": "payment-service",
+      "host": "app-server-4",
+      "environment": "production",
+      "encrypted_message": "1H/RKebhsKF3xJsU0oKuyu1vjvZTxesJ7x4S+l3/9gccY/jsVXP1v7iPF52Fj3u1Ke6Yf2J1BSwzPn4u096UGph/mhWFwPjtsAvuiuehpJieYEb8MLvcY5VfCPeDRykV",
+      "message_length": 65,
+      "correlation_id": "corr-674638",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 5757
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0012",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:31:23.631896Z",
+      "level": "INFO",
+      "service": "user-service",
+      "host": "app-server-3",
+      "environment": "production",
+      "encrypted_message": "lINt3ahGpFBYHN6zx9U1dJS2r4z6MFSHOgTRdZHj0If5Wyaq8zTODA4fg8n89eN164IuB4VSRjyRE9fi7gI7cHzEVWDXWojuj1J+oh/LuZVvrZvFepHyIf/HRoUr/816",
+      "message_length": 70,
+      "correlation_id": "corr-255928",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "info"
+      ],
+      "version": "1.0",
+      "pid": 5149
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0013",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:32:23.631896Z",
+      "level": "WARN",
+      "service": "notification-service",
+      "host": "app-server-4",
+      "environment": "production",
+      "encrypted_message": "D9H7QliznFXtQ2FCmcqNbn5o2cY04qx/hf126iqeV5veKvC0vZ9W80rVlVESlfP1lEG9Oe8OhigOhqC01LBZUnsPhm4/TohTrbEI/5g6A9hcqGzd46EWHLfO2wcVvqj8p8Mjw1BKOLqLkA6fC5YDSQ==",
+      "message_length": 80,
+      "correlation_id": "corr-457918",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 4481
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0014",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:33:23.631896Z",
+      "level": "ERROR",
+      "service": "analytics-service",
+      "host": "app-server-5",
+      "environment": "production",
+      "encrypted_message": "uNEYK9Oim6GkiGvzy7UHnW1b2BUeFhTx9aSFNP9KW7vhPsXCIdRR+ubaX99XGitKIcGUltkx85t8lAVAh62sXaPNM0ZSIGYrl/0kik1lNBTPNc2Z2hYDwu12ZnAA4nHr",
+      "message_length": 72,
+      "correlation_id": "corr-919930",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "error"
+      ],
+      "version": "1.0",
+      "pid": 7007
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0015",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:34:23.631896Z",
+      "level": "WARN",
+      "service": "payment-service",
+      "host": "app-server-3",
+      "environment": "production",
+      "encrypted_message": "+BUzm5fSepBFecGHiEdTuwugzCT/Pa8OU9/ByDbuzJJCg0z/SPPfmQ7cpySKtttEazx/2G0/vaZoJqTQk35Ua9cazRt7trmjbMN1/Ez9wuc=",
+      "message_length": 48,
+      "correlation_id": "corr-113546",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 6984
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0016",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:35:23.631896Z",
+      "level": "WARN",
+      "service": "auth-service",
+      "host": "app-server-5",
+      "environment": "production",
+      "encrypted_message": "KGLTbgpZAj/dz39QWy4O/48eQWdYKYi3+UGnbbWZ5jlGbxmWQ3ZUpNeMlzZVnBGkThgGBTIr9ICKr26hI1SrbV7cTdcmfHwNerHH5Cv7xXA=",
+      "message_length": 56,
+      "correlation_id": "corr-404086",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 5240
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0017",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:36:23.631896Z",
+      "level": "WARN",
+      "service": "analytics-service",
+      "host": "app-server-3",
+      "environment": "production",
+      "encrypted_message": "jVZhhCZmwHbiGbG/Umwbw+92lhyKGNMB0MyuyP5WGb+IQqdIaACWwRr3bNbLRYSvjM6PxfVtkYkZuL4otyiolHr5HdF3QYzyj3Xf1ZP4sXd6gtCRLEsAWFBNkoUKqfu3",
+      "message_length": 65,
+      "correlation_id": "corr-459294",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 4056
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0018",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:37:23.631896Z",
+      "level": "ERROR",
+      "service": "payment-service",
+      "host": "app-server-2",
+      "environment": "production",
+      "encrypted_message": "RV3Bh5dVsVd8J7aWteSCn2XViOpbVqeJpHU8YFN4/4YzODJX0przMpOy4/rr+hByiBKio9qE5M4oSppQqoHmr6Uj0Yj4MOcbKk5LxPaWASOXw8cDCn/Q+DhGzCJN+iM3",
+      "message_length": 73,
+      "correlation_id": "corr-481885",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "error"
+      ],
+      "version": "1.0",
+      "pid": 5465
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0019",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:38:23.631896Z",
+      "level": "INFO",
+      "service": "user-service",
+      "host": "app-server-3",
+      "environment": "production",
+      "encrypted_message": "TC2Esaa3Aeqb/3oo37/ZGLDim6SeB+n2PZIH/EKApiJ1dGN0oF9DV9StQAuyH8NQHjemW0/1hChGMJnvrEeCArVckvN8O8t4OSP2JAV6Gby8XckkRfrNNQ7ADCSvNty7",
+      "message_length": 64,
+      "correlation_id": "corr-737250",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "info"
+      ],
+      "version": "1.0",
+      "pid": 7967
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0020",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:39:23.631896Z",
+      "level": "WARN",
+      "service": "auth-service",
+      "host": "app-server-1",
+      "environment": "production",
+      "encrypted_message": "60HOo2ML0oy5sKwmG7TeRDl885vFWeyf5NwnuXxSDyIliy1o+SH0B3xvgdfZwan45NN5YQak4VkWiZbbXjj4dxWO/ypVq+OrTOYC/vcXIuW1dBMEPZcSA882Wv+h0Qrv",
+      "message_length": 67,
+      "correlation_id": "corr-969488",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 8048
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0021",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:40:23.631896Z",
+      "level": "WARN",
+      "service": "auth-service",
+      "host": "app-server-1",
+      "environment": "production",
+      "encrypted_message": "wxNMN+K+yCtduymvWzmgv5R0mC6BKtoqJV4KjBJJ0Oxmy0Fe2Besynw0JRw/pLdr2QiycBt4uc7mwuPw3n7gOt8cGjfLFQkHryF9AXslcaboNtpMaHsd5kXTy6LkVAt4",
+      "message_length": 65,
+      "correlation_id": "corr-738627",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 8825
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0022",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:41:23.631896Z",
+      "level": "INFO",
+      "service": "notification-service",
+      "host": "app-server-1",
+      "environment": "production",
+      "encrypted_message": "uilcO7qwJPYWlXaiUhXDVQ+DUY4mDSdlOixDfwjx/ESfp/PXZcvTIugw/eV1oWmyWYrdS0scLfSOjXSW4DK4s+gA86OOSgixsgzfLt67794=",
+      "message_length": 52,
+      "correlation_id": "corr-218562",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "info"
+      ],
+      "version": "1.0",
+      "pid": 9585
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0023",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:42:23.631896Z",
+      "level": "ERROR",
+      "service": "user-service",
+      "host": "app-server-4",
+      "environment": "production",
+      "encrypted_message": "3x2brWILQ3iFiwMaWuX1wCzFTwU4SqJTEeWIiIegsFcBF5GAYe/YQP2xHfsO/t1gTLOvjmdQAgonLOlDv0TkTJrh6ofg5XzEigbVIqczJyGxQQ3QIZy0h0GIXgpXsQ/W",
+      "message_length": 73,
+      "correlation_id": "corr-462862",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "error"
+      ],
+      "version": "1.0",
+      "pid": 1887
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0024",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:43:23.631896Z",
+      "level": "DEBUG",
+      "service": "notification-service",
+      "host": "app-server-4",
+      "environment": "production",
+      "encrypted_message": "RGhH5BUxWfHJMnaSjQSmio8P0kOxvMOIAkmvD0MamVC2dH6i+YvTLspr3eQbTfaYPC+OidVgbfYqSWulHKrbPt/9rGq+W/qGhOomgR2q4nA=",
+      "message_length": 50,
+      "correlation_id": "corr-836403",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "debug"
+      ],
+      "version": "1.0",
+      "pid": 7414
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0025",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:44:23.631896Z",
+      "level": "INFO",
+      "service": "notification-service",
+      "host": "app-server-1",
+      "environment": "production",
+      "encrypted_message": "ZaRLMZJxfkmbSLUkiXFRox3xjYF5YjqKtzDp1UgFwOkjOE4Xj04wPMklSuFa2XOBeEm7zNAZsidQHoQtxIcglwQNc8DAiG1NmFUgqi6uYjY=",
+      "message_length": 55,
+      "correlation_id": "corr-601342",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "info"
+      ],
+      "version": "1.0",
+      "pid": 5171
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0026",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:45:23.631896Z",
+      "level": "INFO",
+      "service": "user-service",
+      "host": "app-server-2",
+      "environment": "production",
+      "encrypted_message": "pgOA3sDfm+DessrRya/y5n+7a5JvbpbCoZnZYtzkGPpjiyOKOEJLHn3rNTizeRXoXs0zXQ3RBVNqDXQc9PAQZHLB6HcT2OSuVxnojHM2aVIRJR273s4LtRB5G7fukmu+",
+      "message_length": 67,
+      "correlation_id": "corr-561704",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "info"
+      ],
+      "version": "1.0",
+      "pid": 6526
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0027",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:46:23.631896Z",
+      "level": "WARN",
+      "service": "analytics-service",
+      "host": "app-server-5",
+      "environment": "production",
+      "encrypted_message": "czZhXrYWhZQ4QwpmjDbzYL4Q+8ZV09hM5e45jdQMVVLOvR+aeZH1xCZPWG4dLEtkrVqG3UGa3D+WJ09pl4rWj7R8Ed7N/DgtJ9x2QRUYKgggrxmtHuTTsu4hjJpwMc52",
+      "message_length": 71,
+      "correlation_id": "corr-718938",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 2560
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0028",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:47:23.631896Z",
+      "level": "WARN",
+      "service": "payment-service",
+      "host": "app-server-4",
+      "environment": "production",
+      "encrypted_message": "f2HNnaKmgQOfXnpgkKE71BFyISMg4+8A9hrWH69iDyKbJ3Hrxr/uWuaLKbGClUiVyugKvW9e++vynSs7fCA+UnTjIf1Ua1mF6uwTh1t4Zxk=",
+      "message_length": 48,
+      "correlation_id": "corr-562987",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 4081
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0029",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:48:23.631896Z",
+      "level": "ERROR",
+      "service": "notification-service",
+      "host": "app-server-3",
+      "environment": "production",
+      "encrypted_message": "Is4rXT67Uq8idljhdYX2G8CxjqYahfFSClPoLJsXe84XrALEEwt+UvGdS12ocMLoYxWkUwdnduJOly1Mjj9OwlzUjbquGO2qRI+UVutENnnDS2H6px5wFZwpYZ8Kqw1M",
+      "message_length": 72,
+      "correlation_id": "corr-413511",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "error"
+      ],
+      "version": "1.0",
+      "pid": 6231
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0030",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:49:23.631896Z",
+      "level": "DEBUG",
+      "service": "notification-service",
+      "host": "app-server-3",
+      "environment": "production",
+      "encrypted_message": "oYvrfxrwJVBKUXPAFA5YVN6wW6ocCArKS+3Gc16jr9G6FROOc4tf1KIeDRB2+Q3UNDeUEjkbi3JdDY9AQZr2fIb8wGpdVgiTTjDigqKv81g=",
+      "message_length": 50,
+      "correlation_id": "corr-373569",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "debug"
+      ],
+      "version": "1.0",
+      "pid": 8988
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0031",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:50:23.631896Z",
+      "level": "WARN",
+      "service": "user-service",
+      "host": "app-server-5",
+      "environment": "production",
+      "encrypted_message": "BK6RrNH4q3v5qEYYJM5Z6iMlkvGw17AtbeBicIJfUHCu4hj0i+QAcuNl/Z55wyG1tXoofDApS62425+FSWck3RkDa2pAES3Sg0B6X6umuIzQDFeJCcwNxabYx5UJaN4EI4s3IHvSXTBtfDzzt/fMjA==",
+      "message_length": 83,
+      "correlation_id": "corr-929504",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 4657
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0032",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:51:23.631896Z",
+      "level": "DEBUG",
+      "service": "user-service",
+      "host": "app-server-2",
+      "environment": "production",
+      "encrypted_message": "MOU4cJS0truaEs+IJ1RwMuOn2LoyMTiSnxyfqzJGu3iyRaRv24epO99WtKoRjvbd/lLxhpTcoqBUzYkIlnzVEHnOWhdAoYvWGm5buhCrHJg=",
+      "message_length": 50,
+      "correlation_id": "corr-820265",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "debug"
+      ],
+      "version": "1.0",
+      "pid": 3242
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0033",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:52:23.631896Z",
+      "level": "INFO",
+      "service": "user-service",
+      "host": "app-server-4",
+      "environment": "production",
+      "encrypted_message": "3q78/aUZpV679C1Wh+3YX9SlwFLzvV0qDAkhw50kTc+a9ZMGgul0zf9c5hXrG9zCOt+YBJgSXnIjuRyu6EDoPmAyEZ3ENh0cD7/ZKkZZcDKohrXm5gCWBZ+vL5C+WDsN",
+      "message_length": 79,
+      "correlation_id": "corr-940051",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "info"
+      ],
+      "version": "1.0",
+      "pid": 4404
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0034",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:53:23.631896Z",
+      "level": "INFO",
+      "service": "notification-service",
+      "host": "app-server-1",
+      "environment": "production",
+      "encrypted_message": "DbUa9epyw6iNidkD4/aGcF0N3lbSiGrQW/7Gd9jvtUX+58ljzpzidQedo1K5T2bq/v5jnuKUVLE6FoAFl4FFK9lLvXtKdczEo4nq5nnfnbyPcsWeKPQFGwlblsWujt71Mjbp/T7rQbbMx5hCWEHfUQ==",
+      "message_length": 80,
+      "correlation_id": "corr-185570",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "info"
+      ],
+      "version": "1.0",
+      "pid": 6958
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0035",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:54:23.631896Z",
+      "level": "ERROR",
+      "service": "analytics-service",
+      "host": "app-server-4",
+      "environment": "production",
+      "encrypted_message": "KYsHLWVJsJWTycw183S2Eys6FpcDX/es9oTlYKjDct0ggfjSr/6T1pwvu1HfwROhUoWuc6uZmUwvNSs5CQtuYm0pU3bCJJqgZ0Nryv6zdR0CYRypCSu08ci7RKQ8eqig",
+      "message_length": 64,
+      "correlation_id": "corr-200313",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "error"
+      ],
+      "version": "1.0",
+      "pid": 5525
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0036",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:55:23.631896Z",
+      "level": "ERROR",
+      "service": "notification-service",
+      "host": "app-server-2",
+      "environment": "production",
+      "encrypted_message": "ab5d10NRhagFj+Hfrdyy+N71X8qcWisRWMRkLNyVNCl1YKFYqLNM96wdXMj7JO7+1VxFm6uedI+4igPSItliNYeLz+ghtSUyExXzKOLdX0riRgld+DBgrPRh9MLWXqAL",
+      "message_length": 72,
+      "correlation_id": "corr-365326",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "error"
+      ],
+      "version": "1.0",
+      "pid": 8785
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0037",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:56:23.631896Z",
+      "level": "ERROR",
+      "service": "notification-service",
+      "host": "app-server-1",
+      "environment": "production",
+      "encrypted_message": "XSmrMighYkrulbvx6E+JPEqLSaublEfPenN3eBxhLQp2Tut9WJ1maQkbJycCY7BH3YOHR4pRvBLwrCr+imV/xjxtVhABIKOxTF/WS4cI0FYvOnOC+I4RTpDq+H+7M6MG",
+      "message_length": 71,
+      "correlation_id": "corr-930981",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "error"
+      ],
+      "version": "1.0",
+      "pid": 7104
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0038",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:57:23.631896Z",
+      "level": "DEBUG",
+      "service": "payment-service",
+      "host": "app-server-2",
+      "environment": "production",
+      "encrypted_message": "0M8tM41pmpwINSA7GG9G3aA9Wd+NdBwDGHvamx6SgxRJsWbrqP9e80sy5ACP+0qHbP6prgiqwZwLwrn7OjxXeR7gC83DalgeEfZnngaXL18=",
+      "message_length": 54,
+      "correlation_id": "corr-271947",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "debug"
+      ],
+      "version": "1.0",
+      "pid": 3098
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0039",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:58:23.631896Z",
+      "level": "DEBUG",
+      "service": "analytics-service",
+      "host": "app-server-3",
+      "environment": "production",
+      "encrypted_message": "pd/mVOYhKKnzcpUetQX1z3Hj1eQogxoZyYGEUufIlp3HM6YGSGHznwiNUzusD89Sp/IOLA1o6yxeuqsxgQDc9NlqfaB+Gml6RHNgwjchUwU=",
+      "message_length": 50,
+      "correlation_id": "corr-520786",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "debug"
+      ],
+      "version": "1.0",
+      "pid": 9066
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0040",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T18:59:23.631896Z",
+      "level": "ERROR",
+      "service": "analytics-service",
+      "host": "app-server-1",
+      "environment": "production",
+      "encrypted_message": "KPnjkvfA07VqK8IIdSAY5MpyzZU24TWCJQ5vO5zZg2dqElUdkZoxcwHMf8GY6pd67O96dixtYp/NLz3DOUf/D6cYQDH93K0z44XPhcuaVDJRPLu7IqMe2ntaSPgE2EdS",
+      "message_length": 69,
+      "correlation_id": "corr-871485",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "error"
+      ],
+      "version": "1.0",
+      "pid": 3916
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0041",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T19:00:23.631896Z",
+      "level": "INFO",
+      "service": "analytics-service",
+      "host": "app-server-4",
+      "environment": "production",
+      "encrypted_message": "aQlC6o/mTzhjf0+/bqOsMmVRi5pxILCUE6lDVFm1RBRKxxqBV18BkwSRYZR4Si0is6dngARrBNdJ/1tzSGmJrTVzSxtDamF/x5wYXm78CFgydZpXQ9lBVcnilcNe1oYq",
+      "message_length": 69,
+      "correlation_id": "corr-264215",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "info"
+      ],
+      "version": "1.0",
+      "pid": 6884
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0042",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T19:01:23.631896Z",
+      "level": "INFO",
+      "service": "user-service",
+      "host": "app-server-5",
+      "environment": "production",
+      "encrypted_message": "M+OqguTGr2lxxN5aCJYtcGbI4AXXWR0xPhIbwtbu+J2aerLLGpDa94c5P8d37mUL0c6qlo76xflrOVLhpK8HozpOnNe7+MaI2tOztVBolXY=",
+      "message_length": 55,
+      "correlation_id": "corr-741481",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "info"
+      ],
+      "version": "1.0",
+      "pid": 7273
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0043",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T19:02:23.631896Z",
+      "level": "ERROR",
+      "service": "payment-service",
+      "host": "app-server-3",
+      "environment": "production",
+      "encrypted_message": "p/sLaBp3ED1ZMwqDe4NcnVMNDG7jkScxSVAJ7tQgHLXYMLTsMIdULx2svWRCnHv9US/JdtfG8e8qvQDLDY6RD1pfVjL8BRUyyImT+jU5Z9Y=",
+      "message_length": 61,
+      "correlation_id": "corr-198958",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "error"
+      ],
+      "version": "1.0",
+      "pid": 5039
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0044",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T19:03:23.631896Z",
+      "level": "DEBUG",
+      "service": "user-service",
+      "host": "app-server-1",
+      "environment": "production",
+      "encrypted_message": "Y/x7kINR4NRVXLxKYwEnkmQ8FcIRXH4VUU5g8ZHS7HqVqiQXVUT7seEpQa06Cgxs4UywMMir81NkpwhvzletG6sc3BrxPU1sqjLvZaTR4POSv+L5ePbdu+Yz7j7LyBOb",
+      "message_length": 73,
+      "correlation_id": "corr-944928",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "debug"
+      ],
+      "version": "1.0",
+      "pid": 7217
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0045",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T19:04:23.631896Z",
+      "level": "DEBUG",
+      "service": "auth-service",
+      "host": "app-server-4",
+      "environment": "production",
+      "encrypted_message": "U0QQVVoM/t3ZhlcXimrr3UZlJ2fabs4HVZUhRY8yb7+KGatWr57vjzRlpzUXopBydTgSw6vB9HVNIEYq2GpTgDfdzVgOs9a1d3M2C1vvgv7DBfnVBzw+It2Rf9hf0X4K",
+      "message_length": 73,
+      "correlation_id": "corr-310526",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "debug"
+      ],
+      "version": "1.0",
+      "pid": 2177
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0046",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T19:05:23.631896Z",
+      "level": "WARN",
+      "service": "analytics-service",
+      "host": "app-server-1",
+      "environment": "production",
+      "encrypted_message": "CiNejmoa+OURQAVBokQwsWPZGHtjvmZd8J5jxglxd3BY3yFe0EVG/PCwg96E68uCupfzl5qJZZzCJneoK+0byhKcxgYp8PdpZY9kQRSv9M8=",
+      "message_length": 48,
+      "correlation_id": "corr-437491",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 7628
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0047",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T19:06:23.631896Z",
+      "level": "DEBUG",
+      "service": "auth-service",
+      "host": "app-server-4",
+      "environment": "production",
+      "encrypted_message": "WJMhjcSDg9+NDhve1CyByOq85mQwgXpSqjNuHiy6kjM1q8tkMHYASk4ro2yTunDdvABdv2E6tnckOrPhCQL/cUBijeUGLKJJ3t6KhfobZjCfGSi1RBE5DOC42Rpxzwbw",
+      "message_length": 70,
+      "correlation_id": "corr-664992",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "debug"
+      ],
+      "version": "1.0",
+      "pid": 6993
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0048",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T19:07:23.631896Z",
+      "level": "WARN",
+      "service": "payment-service",
+      "host": "app-server-3",
+      "environment": "production",
+      "encrypted_message": "2ayc57ogpqiylMBDyMlKSzJDApnyo/x4bhtjLUK7ZmUKaqzilR2q6P3bZwwV0YdKMrEkP4OmmOGWhrrlRccfWdda7k/1/Rn5hNW+RXwk9+kKLnV2DsC3ZEs3yKw4DzJh",
+      "message_length": 68,
+      "correlation_id": "corr-558892",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 4412
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0049",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T19:08:23.631896Z",
+      "level": "DEBUG",
+      "service": "auth-service",
+      "host": "app-server-1",
+      "environment": "production",
+      "encrypted_message": "IOCoiFNJy1YwcrQ1VBFXTvbJRYyBsCWxCbuDnhW9h7s/+JztAl+aCQRFGnpc7T3M3pZWjpC1A938s0jHwk+ts4Ky7MiK83GwgwYegYYI4kbqXkO5gHsPNjCjIQOIB+dO",
+      "message_length": 67,
+      "correlation_id": "corr-499323",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "debug"
+      ],
+      "version": "1.0",
+      "pid": 4858
+    }
+  },
+  {
+    "_index": "application-logs-2026.02.02",
+    "_type": "_doc",
+    "_id": "log_0050",
+    "_score": 1.0,
+    "_source": {
+      "@timestamp": "2026-02-02T19:09:23.631896Z",
+      "level": "WARN",
+      "service": "payment-service",
+      "host": "app-server-2",
+      "environment": "production",
+      "encrypted_message": "PsFBRX+w9n8GXh0Nr2he0lN/BajWB5tYnbLklu1xQxE/smR9IiAnWKZHssr49TgealKjBHU+v6ZcmR4z5dTRTvCQ93hVYVAJ9QpmsMqqW5U=",
+      "message_length": 48,
+      "correlation_id": "corr-891866",
+      "tags": [
+        "encrypted",
+        "sensitive",
+        "warn"
+      ],
+      "version": "1.0",
+      "pid": 6244
+    }
+  }
+]

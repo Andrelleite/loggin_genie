@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "1",
+    "_index": "test-logs",
+    "_source": {
+      "@timestamp": "2024-02-02T10:30:00Z",
+      "level": "error",
+      "service": "api",
+      "message": "VGhpcyBpcyBhIHRlc3QgZW5jcnlwdGVkIG1lc3NhZ2U="
+    }
+  },
+  {
+    "_id": "2",
+    "_index": "test-logs",
+    "_source": {
+      "@timestamp": "2024-02-02T10:31:00Z",
+      "level": "info",
+      "service": "api",
+      "message": "VXNlciBsb2dpbiBzdWNjZXNzZnVs"
+    }
+  },
+  {
+    "_id": "3",
+    "_index": "test-logs",
+    "_source": {
+      "@timestamp": "2024-02-02T10:32:00Z",
+      "level": "warn",
+      "service": "database",
+      "message": "Q29ubmVjdGlvbiBzbG93"
+    }
+  }
+]
